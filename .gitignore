@@ -1,0 +1,21 @@
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python & Environment Files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+ENV/
+
+# Project & Autograder Ignores
+tests/
+CSP_autograder/
+autograder/
+.github/
