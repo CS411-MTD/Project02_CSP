@@ -182,18 +182,16 @@ Record a **5–7 minute video presentation** explaining your project implementat
 ## Submission Instructions
 
 ### 1. Pre-Submission Check
-Before submitting, run the local automated checks to ensure all required files exist and your report is correctly formatted. Run `pytest` in your project root directory:
-```bash
-pytest tests/
-```
-Verify that all formatting and submission checks pass successfully.
 
-**Note:** The automated autograder evaluates the core requirements and awards a maximum of **70 points**.
-- The remaining **30 points** are manually graded based on schedule correctness, soft constraint optimization quality, and the video presentation, for a total of **100 points**.
+Before submitting, make sure all required files are included and follow the required directory structure.
+
+**Note**: The Gradescope autograder awards up to 70 points. The remaining 30 points are manually graded.
 
 ### 2. Submission to Gradescope
-- Submit all files listed in the `Project Directory` to Gradescope.
-- Do not rename or move files/folders, as the automated evaluation depends on the exact directory structure.
-- Check Gradescope for the submission deadline.
 
-> **Note**: Only the results from the official grading run on Gradescope are final, even if your local test suite passes successfully.
+* Submit all required files to Gradescope.
+* Do not rename or move required files/folders/structure.
+* Review your autograder results and score after submission.
+* You may revise and resubmit before the deadline.
+
+**Note**: Only the official Gradescope results are used for grading.
